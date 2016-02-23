@@ -50,15 +50,24 @@ image {
 
     font-size: 110%;
     color: red;
+    width:31%;
+    float: left;
+    margin: 1%;
 
 }
 #mugContainer2{
     font-size: 120%;
     color: #3269ff;
+    width:31%;
+    display: inline-block;
+    margin: 1%;
 }
 #mugContainer3{
     font-size: 125%;
     color: olivedrab;
+    width:31%;
+    float: right;
+    margin: 1%;
 }
 
 form{

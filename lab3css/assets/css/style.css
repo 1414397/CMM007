@@ -14,7 +14,9 @@ h2{
 
 
 footer {
+
     text-align: center;
+
 }
 
 #loginbox{
@@ -43,6 +45,7 @@ image {
 
 
 }
+
 #mugContainer1{
 
     font-size: 110%;
@@ -58,4 +61,7 @@ image {
     color: olivedrab;
 }
 
-
+form{
+    padding: 2%;
+    color: red;
+}

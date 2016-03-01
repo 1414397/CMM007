@@ -1,0 +1,51 @@
+header{
+    max-width: 960px;
+}
+main{
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+
+}
+
+footer{
+    background-color: #363636;
+    color: white;
+    text-align: center;
+}
+
+#cont2 {
+
+
+    flex-grow: 1;
+}
+#cont3 {
+    background-color: #DBC9DF;
+    color: white;
+}
+
+#cont4 {
+    background-color:#782A7E;
+    color: white;
+}
+nav ul li{
+    display: inline;
+}
+nav{
+    text-align:center;
+    width: 920px;
+}
+#image1{
+    height: 100px;
+    width: 400px;
+}
+#image2{
+    padding-right: 10px;
+    width: 240px;
+    float: left;
+}
+#banner{
+
+    width:960px;
+}

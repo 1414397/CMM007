@@ -17,6 +17,16 @@
     $myage = 111;
 
     echo "My name is  ". $myname . " and I am " . $myage;
+
+    $name="ami";
+
+    if($name=="ami"){
+        print "i know you";
+    }
+    else{
+        print"who are you";
+    }
+
     ?>
 </p>
 </body>

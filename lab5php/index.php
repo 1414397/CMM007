@@ -27,6 +27,15 @@
         print"who are you";
     }
 
+    $name="ami";
+    echo "<br>";
+    if($name=="ami"){
+        print "i know you";
+    }
+    else{
+        print"who are you";
+    }
+
     ?>
 </p>
 </body>

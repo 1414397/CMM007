@@ -16,6 +16,7 @@ h2{
 footer {
     clear: both;
     text-align: center;
+    font-size: 70%;
 
 }
 
@@ -56,14 +57,14 @@ image {
 
 }
 #mugContainer2{
-    font-size: 120%;
+    font-size: 125%;
     color: #3269ff;
     width:31%;
     display: inline-block;
     margin: 1%;
 }
 #mugContainer3{
-    font-size: 125%;
+    font-size: 140%;
     color: olivedrab;
     width:31%;
     float: right;
@@ -74,5 +75,5 @@ form{
     padding: 2%;
     color: #59a8ff;
     font-size: 110%;
-    border-color:#59a8ff ;
+    border-color:red ;
 }

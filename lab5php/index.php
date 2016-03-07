@@ -8,6 +8,8 @@
     echo    "Hello, world!";
     echo "<br>";
     echo    "Hello,". " " . "world" . "!";
+
+    echo 5*7;
     ?>
 </p>
 </body>

@@ -18,8 +18,8 @@
 
     echo "My name is  ". $myname . " and I am " . $myage;
 
-    $name="ami";
-
+    $name="amit";
+    echo "<br>";
     if($name=="ami"){
         print "i know you";
     }

@@ -94,7 +94,7 @@
     $myArray[1] = "la"; // modifies at position 1
     echo $myArray[1];
     echo "<br>";
-    unset($array[2]); // removes the array in position
+    unset($array[2]); // removes the array in position 2
     echo $myArray[2];
 
     echo "<br>";
@@ -133,29 +133,28 @@
 
     for ($i = 1; $i < 30; $i++)
     {
-        $y = 0;
-        echo "<p>On day " . $i . " the following products are available: ";
+        if($i != 1)
+        {
+            echo "<p>On the " . $i . " of the month following products are available  ";
 
-        if ($i % 2 != 0)
-        {
-            echo "Sausage Rolls ";
-            $y = 1;
+            if ($i % 2 != 0) {
+                echo "Sausage Rolls ";
+
+            }
+            if ($i % 3 != 0) {
+                echo "Mugs ";
+
+            }
+            if ($i % 4 != 0) {
+                echo "Specs";
+
+            }
         }
-        if ($i % 3 != 0)
-        {
-            echo "Mugs ";
-            $y = 1;
-        }
-        if ($i % 4 != 0)
-        {
-            echo "Specs";
-            $y = 1;
-        }
-        if ($y != 1)
+        else
         {
             echo "NONE";
         }
-        echo "</p>";
+        echo "<p>On the " . $i . " of the month no products are available";
     }
 
 

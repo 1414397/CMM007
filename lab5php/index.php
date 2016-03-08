@@ -37,7 +37,8 @@
     }
 
     $myage = 28;
-
+    echo "<br>";
+    echo "<br>";
     if ($myage >= 21) {
         echo "You can buy specs, mugs, and sausage rolls";
     }
@@ -52,6 +53,8 @@
     }
 
     $numberOfHobbits = 2;
+    echo "<br>";
+    echo "<br>";
     switch ($numberOfHobbits) {
         case 1:
             echo "1 sad hobbit";
@@ -67,7 +70,8 @@
     }
 
     $wantedgood = "mugs";
-
+    echo "<br>";
+    echo "<br>";
     switch ($wantedgood) {
         case "specs":
             echo "You have to be 16 to buy specs";
@@ -82,12 +86,17 @@
             echo "You haven't selected any thing to buy";
     }
 
+    echo "<br>";
+    echo "<br>";
     $myArray = array("do", "re", "mi");
     echo $myArray[0];
+    echo "<br>";
     $myArray[1] = "la"; // modifies at position 1
     echo $myArray[1];
-
+    echo "<br>";
     unset($array[2]); // removes the array in position
+    echo $myArray[2];
+
 
     function squareValue($number)
     {

@@ -99,6 +99,31 @@
 
     echo "<br>";
     echo "<br>";
+    $myArray = array("specs", "mugs", "sausage rolls");
+
+    echo "Original";
+    foreach($myArray as $x) {
+        echo "<p>"  $x "</p>";
+    }
+
+    $myArray[1] = "hugs"; // modifies position 1 (re)
+
+    echo "Swap in Hugs with Mugs";
+    foreach($myArray as $x) {
+        echo "<p>"  $x  "</p>";
+    }
+
+
+    unset($myArray[2]); // removes the array in position 2
+
+    echo "Removed Sausage Rolls";
+    foreach($myArray as $x) {
+        echo "<p>"  $x  "</p>";
+    }
+
+
+    echo "<br>";
+    echo "<br>";
     for ($i = 1; $i < 10; $i++) {
         echo "<p>Hello!</p>";
     }

@@ -171,23 +171,47 @@
 
     echo "<br>";
     echo "<br>";
-    $uppercase = strtoupper(
-        $myname
-    );
-    print
-        $uppercase
-    ;
-    // prints "DAVID"
-    $lowercase
-        = strtolower(
-        $uppercase
-    );
-    print
-        $lowercase
-    ;
+    $uppercase = strtoupper($myname);
+    print$uppercase;
+    echo "<br>";
+    echo "<br>";
+    $lowercase = strtolower($uppercase);
+    print $lowercase;
+
 
     echo "<br>";
     echo "<br>";
+    strpos("emily", "e");
+    echo "<br>";
+    strpos("emily", "i");
+    echo "<br>";
+    strpos("emily", "ily");
+    echo "<br>";
+    strpos("emily", "zxc");
+
+    echo "<br>";
+    echo "<br>";
+    $round = round(M_PI);
+    print $round;
+    echo "<br>";
+    $round_decimal = round(M_PI, 4);
+    print $round_decimal;
+
+    echo "<br>";
+    print rand(1, 10);
+    echo "<br>";
+    print rand();
+
+    echo "<br>";
+    echo "<br>";
+
+    echo "<br>";
+    echo "<br>";
+
+
+    echo "<br>";
+    echo "<br>";
+
     function squareValue($number)
     {
         echo  $number * $number;

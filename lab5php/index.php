@@ -94,7 +94,7 @@
     $myArray[1] = "la"; // modifies at position 1
     echo $myArray[1];
     echo "<br>";
-    unset($array[2]); // removes the array in position 2
+    unset($myArray[2]); // removes the array in position 2
     echo $myArray[2];
 
     echo "<br>";
@@ -157,6 +157,34 @@
         echo "<p>";
     }
 
+
+    echo "<br>";
+    echo "<br>";
+    $length = strlen("david");
+    print $length;
+
+    echo "<br>";
+    echo "<br>";
+    $myname = "David";
+    $partial = substr($myname, 0, 3);
+    print $partial;
+
+    echo "<br>";
+    echo "<br>";
+    $uppercase = strtoupper(
+        $myname
+    );
+    print
+        $uppercase
+    ;
+    // prints "DAVID"
+    $lowercase
+        = strtolower(
+        $uppercase
+    );
+    print
+        $lowercase
+    ;
 
     echo "<br>";
     echo "<br>";

@@ -82,7 +82,12 @@
             echo "You haven't selected any thing to buy";
     }
 
+    $myArray = array("do", "re", "mi");
+    echo $myArray[0];
+    $myArray[1] = "la"; // modifies at position 1
+    echo $myArray[1];
 
+    unset($array[2]); // removes the array in position
 
     function squareValue($number)
     {

@@ -130,6 +130,37 @@
 
     echo "<br>";
     echo "<br>";
+
+    for ($i = 1; $i < 30; $i++)
+    {
+        $y = 0;
+        echo "<p>On day " . $i . " the following products are available: ";
+
+        if ($i % 2 != 0)
+        {
+            echo "Sausage Rolls ";
+            $y = 1;
+        }
+        if ($i % 3 != 0)
+        {
+            echo "Mugs ";
+            $y = 1;
+        }
+        if ($i % 4 != 0)
+        {
+            echo "Specs";
+            $y = 1;
+        }
+        if ($y != 1)
+        {
+            echo "NONE";
+        }
+        echo "</p>";
+    }
+
+
+    echo "<br>";
+    echo "<br>";
     function squareValue($number)
     {
         echo  $number * $number;

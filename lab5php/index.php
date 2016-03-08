@@ -99,10 +99,17 @@
 
     echo "<br>";
     echo "<br>";
+    for ($i = 1; $i < 10; $i++) {
+        echo "<p>Hello!</p>";
+    }
+
+    echo "<br>";
+    echo "<br>";
     function squareValue($number)
     {
         echo  $number * $number;
     }
+
     $n = 6;
     squareValue($n);
     ?>

@@ -103,14 +103,14 @@
 
     echo "Original";
     foreach($myArray as $x) {
-        echo "<p>"  $x "</p>";
+        echo "<p>" . $x ."</p>";
     }
 
     $myArray[1] = "hugs"; // modifies position 1 (re)
 
     echo "Swap in Hugs with Mugs";
     foreach($myArray as $x) {
-        echo "<p>"  $x  "</p>";
+        echo "<p>".  $x  ."</p>";
     }
 
 
@@ -118,7 +118,7 @@
 
     echo "Removed Sausage Rolls";
     foreach($myArray as $x) {
-        echo "<p>"  $x  "</p>";
+        echo "<p>" . $x . "</p>";
     }
 
 

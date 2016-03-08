@@ -152,9 +152,9 @@
         }
         else
         {
-            echo "NONE";
+            echo "<p>On the " . $i . " of the month no products are available";
         }
-        echo "<p>On the " . $i . " of the month no products are available";
+        echo "<p>";
     }
 
 

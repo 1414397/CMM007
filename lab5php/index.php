@@ -204,6 +204,15 @@
 
     echo "<br>";
     echo "<br>";
+    $fav_bands = array();
+    array_push($fav_bands, "Katy Perry");
+    array_push($fav_bands, "The Peapods");
+    array_push($fav_bands, "Nickelback");
+    print count($fav_bands);
+    echo "<br>";
+    foreach($fav_bands as $x) {
+        echo "<p>" . $x . "</p>";
+    }
 
     echo "<br>";
     echo "<br>";

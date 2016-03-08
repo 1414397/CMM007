@@ -101,7 +101,7 @@
     echo "<br>";
     $myArray = array("specs", "mugs", "sausage rolls");
 
-    echo "Original";
+    echo "Original Array";
     foreach($myArray as $x) {
         echo "<p>" . $x ."</p>";
     }

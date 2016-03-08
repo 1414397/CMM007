@@ -216,6 +216,9 @@
 
     echo "<br>";
     echo "<br>";
+    $array = array(5, 3, 7, 1);
+    sort($array);
+    print join(", ", $array);
 
 
     echo "<br>";

@@ -223,6 +223,12 @@
 
     echo "<br>";
     echo "<br>";
+    $array = array(5, 3, 7, 1);
+    rsort($array);
+    print join(" : ", $array);
+
+    echo "<br>";
+    echo "<br>";
 
     function squareValue($number)
     {

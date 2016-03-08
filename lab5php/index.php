@@ -97,7 +97,8 @@
     unset($array[2]); // removes the array in position
     echo $myArray[2];
 
-
+    echo "<br>";
+    echo "<br>";
     function squareValue($number)
     {
         echo  $number * $number;

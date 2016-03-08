@@ -237,7 +237,23 @@
 
     $n = 6;
     squareValue($n);
+
+    echo "<br>";
+    echo "<br>";
+    $lArray = array("Ami", "Paril", "Mason", "Aarna", "Fiona", "Chirag", "Sara", "Yeasha" , "Kinjal", "Ashu");
+    sort($lArray);
+    $personwin = (rand(0,count($lArray))) - 1;
+    echo "<p>The winner  is " . strtoupper($lArray[$personwin]) . "</p>";
+    unset($lArray[$personwin]);
+    $personwin = (rand(0,count($lArray))) - 1;
+    echo "<p>The winner of all the mugs is " . strtoupper($lArray[$personwin]) . "</p>";
+    unset($lArray[$personwin]);
+    $personwin = (rand(0,count($lArray))) - 1;
+    echo "<p>The winner of all the sausage rolls is " . strtoupper($lotteryArray[$winner]) . "</p>";
+
     ?>
+
+
 </p>
 </body>
 </html>

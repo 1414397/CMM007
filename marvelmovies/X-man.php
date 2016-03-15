@@ -14,13 +14,9 @@
         <li><a href="createdafter2010.php">Display Movies created after 2010</a> </li>
         <li><a href="X-man.php">Display all X-Men Films</a> </li>
     </ul>
-</head><?php
-/**
- * Created by PhpStorm.
- * User: 1414397
- * Date: 15/03/2016
- * Time: 09:40
- */
+</head>
+<?php
+
 include("connectionfile.php");
 $sql = "SELECT * FROM marvelmovies WHERE title='X-Men'";
 $result = mysqli_query($db, $sql);

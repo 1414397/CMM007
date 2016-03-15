@@ -10,7 +10,7 @@ $sql = "SELECT * FROM marvelmovies WHERE yearReleased>'2010' ";
 $result = mysqli_query($db, $sql);
 if (mysqli_num_rows($result) > 0) {
     while($row = mysqli_fetch_assoc($result)) {
-        echo  $row["marvelMovieid"]. "  " . $row["yearReleased"]. " " . $row["title"].  " " . $row["productionStudio"]." " . $row["notes"]."<br>";
+        echo  $row["marvelMovieID"]. "  " . $row["yearReleased"]. " " . $row["title"].  " " . $row["productionStudio"]." " . $row["notes"]."<br>";
     }
 } else {
     echo "0 results";

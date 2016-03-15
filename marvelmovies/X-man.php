@@ -8,5 +8,11 @@
 include("connectionfile.php");
 $sql = "SELECT * FROM marvelmovies WHERE title='X-Men'";
 $result = mysqli_query($db, $sql);
-
+if (mysqli_num_rows($result) > 0) {
+    while($row = mysqli_fetch_assoc($result)) {
+        echo  $row["marvelMovieid"]. "  " . $row["yearReleased"]. " " . $row["title"].  " " . $row["productionStudio"]." " . $row["notes"]."<br>";
+    }
+} else {
+    echo "0 results";
+}
 ?>

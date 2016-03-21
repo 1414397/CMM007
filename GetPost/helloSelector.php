@@ -9,5 +9,14 @@
 <a href="helloPrinter.php?place=Mars">Mars</a><br><br>
 <a href="helloPrinter.php?place=Uranus">Uranus</a><br><br>
 
+
+
+<form action="formResponse.php" method="post">
+    <label>Forename</label><input type=“text” name=“forename”>
+    <label>Surname</label><input type=“text” name=“surname”>
+    <input type="submit" value="Submit">
+</form>
+
+
 </body>
 </html>

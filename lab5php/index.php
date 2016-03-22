@@ -36,7 +36,7 @@
         print"who are you";
     }
 
-    $myage = 28;
+    $myage = 15;
     echo "<br>";
     echo "<br>";
     if ($myage >= 21) {
@@ -250,7 +250,8 @@
     unset($lArray[$personwin]);
     $personwin = (rand(0,count($lArray))) - 1;
     echo "<p>The winner of all the sausage rolls is " . strtoupper($lotteryArray[$winner]) . "</p>";
-
+    array_values();
+    array_values()
     ?>
 
 

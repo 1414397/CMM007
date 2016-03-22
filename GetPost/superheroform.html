@@ -5,11 +5,11 @@
     <title></title>
 </head>
 <body>
-<form action="formdisplay.php" method="post">
+<form action="insertsuperhero.php" method="post">
     <label> Name</label><br>
-    <label>Forename</label><input type="text" name="forename">
-    <label>Surname</label><input type="text" name="surname"><br><br>
-    <br><br><label>Main Superhero Power</label><input type="text" name="power">
+    <label>Forename</label><input type="text" name="forename" maxlength="50" required>
+    <label>Surname</label><input type="text" name="surname" maxlength="50" required><br><br>
+    <label>Main Superhero Power</label><input type="text" name="power" maxlength="50" required>
     <br><br><input type="submit" value="Submit">
 </form>
 </body>

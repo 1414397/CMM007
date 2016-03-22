@@ -7,7 +7,7 @@
 <body>
 
 <form action="formdisplay.php" method="post">
-    <label> Name</label>
+    <label> Name</label><br>
     <label>Forename</label><input type="text" name="forename">
     <label>Surname</label><input type="text" name="surname"><br><br>
     <label>Gender</label><br><input type="radio" name="gender" value="male"><label>Male</label>

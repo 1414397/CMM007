@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<form action="formdiplay.php" method="post">
+<form action="formdisplay.php" method="post">
     <label> Name</label>
     <label>Forename</label><input type="text" name="forename">
     <label>Surname</label><input type="text" name="surname"><br><br>

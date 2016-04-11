@@ -8,10 +8,11 @@
 
 $username=$_POST["name"];
 $password=$_POST["password"];
+echo $username.$password;
 
-if($username=="ami" && password =="jiyani")
+/*if($username=="ami" && password =="jiyani")
 {
     setcookie('access_level_cookie','standarduser');
 }
-header('Location:homepage.php')
+header('Location:homepage.php')*/
 ?>

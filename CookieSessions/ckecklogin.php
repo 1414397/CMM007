@@ -18,5 +18,9 @@ elseif($username=="1414397" && $password =="ami"){
 
     setcookie('access_level_cookie','root');
 }
+else
+{
+    setcookie('access_level_cookie','no');
+}
 header('Location:homepage.php');
 ?>

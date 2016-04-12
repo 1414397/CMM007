@@ -24,7 +24,7 @@ function displayAccessLevelInformation($accesslevel) {
     }
     elseif($accesslevel == "no")
     {
-        echo "no access";
+        echo "<br>no access";
     }
 }
 

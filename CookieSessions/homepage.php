@@ -22,9 +22,9 @@ function displayAccessLevelInformation($accesslevel) {
         echo "<p>You are currently logged in as a root user</p>";
         echo "<p>You now have access to additional administrative features</p>";
     }
-    elseif($accesslevel == "no")
+    elseif($accesslevel == "noaccess")
     {
-        echo "<br>no access";
+        echo "<br>You can not login";
     }
 }
 

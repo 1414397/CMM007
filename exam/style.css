@@ -34,8 +34,9 @@ footer{
 }
 nav{
     background: #ed956b;
-    margin-left: 0;
+
     margin-top: 20px;
+    padding-left: 0px;
 
 }
 section{

@@ -1,5 +1,5 @@
 #logo{
-    width: 200px;
+    width: 100px;
     float: left;
 
 }
@@ -17,7 +17,7 @@ li a{
     text-align: center;
 }
 body{
-    
+    max-width: 960px;
     margin-right: auto;
     margin-left: auto;
     font-family: 'Amiri', serif;

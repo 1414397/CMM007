@@ -27,7 +27,9 @@ main{
     padding-right: 0px;
     margin-top: auto;
 }
-
+header{
+    background-color: #59a8ff;
+}
 footer{
     background: darkolivegreen;
 

@@ -1,0 +1,46 @@
+#logo{
+    width: 200px;
+    float: left;
+
+}
+
+#mainlist{
+    list-style-type: none;
+
+
+}
+
+li a{
+    text-decoration: none;
+    padding: 10px;
+
+    text-align: center;
+}
+body{
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Amiri', serif;
+    font-weight: 400;
+}
+main{
+    padding-right: 0px;
+    margin-top: auto;
+}
+
+footer{
+    background: darkolivegreen;
+
+    text-align: center;
+}
+nav{
+    background: #ed956b;
+
+    margin-top: 20px;
+    padding-left: 0px;
+
+}
+aside{
+    background: #76b3ff;
+    margin-top: 10px;
+}

@@ -3,6 +3,9 @@
     float: left;
 
 }
+header p{
+    width: 150px;
+}
 
 #mainlist{
     list-style-type: none;

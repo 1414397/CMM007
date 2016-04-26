@@ -58,7 +58,7 @@
             else {
                 echo "Error: " . $sql . "<br>" . mysqli_error($db);
             }
-            header("location:showbugs.php?category=all");
+            header("location:showbugs.php");
         }
         else {
             header("location:in.php");

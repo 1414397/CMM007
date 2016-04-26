@@ -38,9 +38,9 @@
                 <label>Bug Category</label>
                 <select name="category" required>
                     <option value="">select category</option>
-                    <option value="android">Android Bugs</option>
-                    <option value="ios">iOS Bugs</option>
-                    <option value="windows">Windows Bugs</option>
+                    <option value="Android Bugs">Android Bugs</option>
+                    <option value="iOS Bugs">iOS Bugs</option>
+                    <option value="Windows Bugs">Windows Bugs</option>
                 </select>
                 <p><input type="submit" value="Submit"></p>
             </form>
